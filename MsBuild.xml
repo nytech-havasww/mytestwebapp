@@ -83,8 +83,8 @@
 			Path="$(FullDeployFolderPath)" 
 			Port="80" 
 			ServerAutoStart="true" 
-			WindowsAuthentication="true"
-			AnonymousAuthentication="false"
+			WindowsAuthentication="false"
+			AnonymousAuthentication="true"
 			
 		>
 			<Output TaskParameter="SiteId" PropertyName="WebSiteId"/>    
